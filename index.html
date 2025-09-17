@@ -75,12 +75,13 @@
         </div>
     </header>
 
-    <main class="bg-[url(./image/BG.png)] pb-30 bg-no-repeat object-cover">
+    <main >
 
         <!-- hero section start  -->
-        <section class="container mx-auto">
+        <section class="bg-[url(./image/BG.png)] pb-30 bg-no-repeat bg-cover">
 
-            <div class=" pt-[200px] pl-[820px] ">
+            <div class="container mx-auto">
+                <div class=" pt-[200px] pl-[820px] ">
                 <h4 class="text-[#00B207] uppercase leading-[2%] font-medium pb-3">Welcome to shopery</h4>
                 <h1 class="font-semibold text-7xl leading-[120%] pb-5 text-[#1A1A1A]">Fresh & Healthy Organic Food</h1>
                 <p class="text-3xl font-normal leading-[120%] pb-2"> Sale up to <span class="text-[#FF8A00]">30%
@@ -88,6 +89,7 @@
                 <p class="text-[#808080] leading-[120%] pb-8">Free shipping on all your order, we deliver, you enjy</p>
                 <button class="bg-[#00B207] px-6 py-3 rounded-full text-white ">Shop now <i
                         class="fa-solid fa-arrow-right"></i></button>
+            </div>
             </div>
 
         </section>
@@ -135,7 +137,7 @@
 
         <!-- featured peoduct start -->
 
-        <section class="bg-[url(./image/Group6.png)] bg-no-repeat ">
+        <section class="bg-[url(./image/Group6.png)] bg-no-repeat bg-cover object-cover ">
             <div class="container mx-auto mt-15">
                 <div class="flex justify-between items-center">
                     <h1 class="font-semibold text-[40px] text-[#1A1A1A]">Featured Products</h1>
@@ -225,7 +227,7 @@
 
         <!-- Shope categories start-->
 
-        <section class="bg-[url(./image/shop-bg.png)] bg-no-repeat">
+        <section class="bg-[url(./image/shop-bg.png)] bg-no-repeat bg-cover">
             <div class=" mt-15 pt-14">
                 <div class="flex justify-between items-center container mx-auto">
                     <h1 class="font-semibold text-[40px] text-[#1A1A1A]">Shop by Top Categories</h1>
@@ -283,7 +285,7 @@
 
         <!-- trusted section start -->
 
-        <section class="bg-[url(./image/BG1.png)] bg-no-repeat">
+        <section class="bg-[url(./image/BG1.png)] bg-no-repeat bg-cover">
 
             <div class="container mx-auto flex justify-center items-center my-15  pb-15">
                 <div class="w-[55%]">
@@ -324,7 +326,7 @@
 
         <!-- info section start -->
 
-        <section class="bg-[url(./image/reviewbg.png)] h-[331px] flex items-center bg-no-repeat object-cover">
+        <section class="bg-[url(./image/reviewbg.png)] h-[331px] flex items-center bg-no-repeat bg-cover">
             <div class="container mx-auto flex  items-center justify-between ">
                 <div class="flex flex-col  p-10 items-center bg-[#FFFFFF12] rounded-lg ">
                     <h1 class="text-[#00B207] font-light text-[56px]">37+</h1>
@@ -348,7 +350,7 @@
 
         <!-- two section baner  star-->
 
-        <section class="bg-[url(./image/2secbg.png)] pt-20 pb-20 bg-no-repeat">
+        <section class="bg-[url(./image/2secbg.png)] pt-20 pb-20 bg-no-repeat bg-cover">
             <div class="container mx-auto ">
                 <div class="flex gap-5">
                     <div
@@ -396,7 +398,7 @@
         <!-- two section baner end -->
 
         <!-- best seller products start-->
-        <section class="bg-[url(./image/Group6.png)] bg-no-repeat pb-15">
+        <section class="bg-[url(./image/Group6.png)] bg-no-repeat pb-15 ">
             <div class="container mx-auto mt-15">
                 <div class="flex justify-between items-center">
                     <h1 class="font-semibold text-[40px] text-[#1A1A1A]">Best Seller Products</h1>
@@ -736,7 +738,7 @@
 
         <!-- review section start -->
 
-        <section class="bg-linear-to-t from-[#FFFFFF] to-[#F2F5F3] bg-[url(./image/rebg.png)] ">
+        <section class=" bg-[linear-gradient(to_top,_#f2f2f2,_#ffffff),url('./image/rebg.png')] bg-cover ">
             <div class="container mx-auto flex flex-col py-15 gap-10 justify-start  ">
                 <div>
                     <p class="font-[Segoe] text-base uppercase text-[#00B207]">Testimonial</p>
@@ -825,17 +827,51 @@
 
         <!-- step section start  -->
 
-        <section>
-            <div>
-                <div><img src="" alt=""></div>
-                <div><img src="" alt=""></div>
-                <div><img src="" alt=""></div>
-                <div><img src="" alt=""></div>
-                <div><img src="" alt=""></div>
-                <div><img src="" alt=""></div>
+        <section class="container mx-auto bg-white  mt-15">
+            <div class="flex justify-between items-center py-15">
+                <div><img src="./image/steps.png" alt=""></div>
+                <div class="h-8 w-0.5 bg-gray-100"></div>
+                <div><img src="./image/mango-1.png" alt=""></div>
+                <div class="h-8 w-0.5 bg-gray-100"></div>
+                <div><img src="./image/food1.png" alt=""></div>
+                <div class="h-8 w-0.5 bg-gray-100"></div>
+                <div><img src="./image/food.png" alt=""></div>
+                <div class="h-8 w-0.5 bg-gray-100"></div>
+                <div><img src="./image/bookoff.png" alt=""></div>
+                <div class="h-8 w-0.5 bg-gray-100"></div>
+                <div><img src="./image/G.png" alt=""></div>
             </div>
         </section>
         <!-- step section end -->
+
+        <!-- contact section start -->
+         <section class="container mx-auto  pb-15">
+            <div class="flex  justify-between mt-10">
+                <div class="w-[23%] flex flex-col gap-4 justify-center items-start p-5 border border-[#20B52633] rounded-lg shadow-md">
+                    <img src="./image/loca.png" alt="">
+                    <p class="uppercase font-medium leading-[100%] tracking-[3%] text-gray-900">our location</p>
+                    <p class="leading-[150%] text-gray-600 font-normal">1901 Thornridge Cir. Shiloh, Washington DC 20020, United States</p>
+                </div>
+
+                <div class="w-[23%] flex flex-col gap-4 justify-center items-start p-5 border border-[#20B52633] rounded-lg shadow-md">
+                    <img src="./image/phn.png" alt="">
+                    <p class="uppercase font-medium leading-[100%] tracking-[3%] text-gray-900">call us 24/7</p>
+                    <p class="leading-[150%] text-gray-600 font-normal">+880 1610839202</p>
+                </div>
+
+                <div class="w-[50%] flex flex-col gap-3 justify-center items-start p-5 border border-[#20B52633] rounded-lg shadow-md ">
+                    <img src="./image/email.png" alt="">
+                    <p>subscribe newsletter</p>
+
+                    <div class="flex items-center rounded-full border border-gray-300 overflow-hidden w-[80%]">
+                        <input class="flex-1 px-4 py-2 text-gray-700 placeholder-gray-400 focus:outline-none" placeholder="Your email address" type="email">
+                        <button class="bg-[#00B207] text-white rounded-full px-6 py-2 font-medium hover:bg-green-600 transition-colors">Shop now <i
+                        class="fa-solid fa-arrow-right"></i></button>
+                    </div> 
+                </div>
+            </div>
+         </section>
+        <!-- contact section end -->
     </main>
 
     <footer class="bg-[#1A1A1A] bg-[url(./image/footbg.png)] bg-cover">
@@ -910,7 +946,7 @@
         <div class="  py-6 border-t border-gray-500">
             <div class="container mx-auto w-full flex justify-between items-center">
                 <div>
-                    <p class="leading-[150%] text-gray-500">Ecobazar eCommerce © 2021. All Rights Reserved</p>
+                    <p class="leading-[150%] text-gray-500">Ecobazar eCommerce © 2021. All Rights Reserved <span class="text-white font-[Segoe]">$Devlope By Md Asaduzzaman</span></p>
                 </div>
 
                 <div class="flex gap-2">
