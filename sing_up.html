@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="font-[Poppins] box-border">
+
+    <header>
+        <!-- address header -->
+        <div class="bg-[#333333] ">
+            <div class=" flex justify-between container mx-auto items-center py-3 tracking-wide text-gray-300">
+                <div>
+                    <p class="text-sm"> <i class="fa-solid fa-location-dot" style="color: #2B572E;"></i> Store Location:
+                        Lincoln- 344,
+                        Illinois, Chicago, USA
+                    </p>
+                </div>
+                <div class=" flex gap-5 text-sm">
+                    <div class="flex gap-5 border-r pr-4 border-r-gray-500">
+                        <p>Eng <i class="fa-solid fa-angle-down"></i> </p>
+                        <p>USD <i class="fa-solid fa-angle-down"></i> </p>
+                    </div>
+
+                    <div class="flex gap-2">
+                        <a href="./sing_in.html">
+                            <p>Sign in /</p>
+                        </a>
+                        <a href="./sing_up.html">Sing up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- first nav  start-->
+        <nav class="border-b border-gray-200 shadow-md">
+            <div class="container mx-auto py-5 ">
+                <div class="flex justify-between items-center ">
+                    <div>
+                        <img src="./image/Logo.png" alt="">
+                    </div>
+
+                    <div class="rounded-md border border-gray-300 overflow-hidden ">
+                        <input class="flex-1 px-4 py-2 text-gray-700 placeholder-gray-400 focus:outline-none"
+                            placeholder=" Search" type="email">
+                        <button
+                            class="bg-[#00B207] text-white rounded-r-md px-6 py-2 font-medium hover:bg-green-600 transition-colors">Search</button>
+                    </div>
+
+                    <div class="flex items-center gap-3">
+                        <div class="border-r border-r-gray-600 pr-3">
+                            <img src="./image/Heart.png" alt="">
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <img src="./pro-img/Cart.png" alt="">
+                            <div>
+                                <p class="text-gray-700 text-[11px] leading-[120%] pb-1">Shoping Cart</p>
+                                <p class="text-gray-900 font-medium leading-[100%]">$57.00</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+        <!-- first nav end -->
+        <!-- nav bar -->
+
+        <div class="  h-16 flex items-center bg-white shadow-md  ">
+            <div class="flex justify-between items-center container mx-auto">
+
+                <ul class="flex gap-7  text-gray-600">
+                    <li><a class="text-black" href="./index.html">Home <i class="fa-solid fa-angle-down"></i></a></li>
+                    <li><a href="#shop">Shop <i class="fa-solid fa-angle-down"></i> </a></li>
+                    <li><a href="#">Pages <i class="fa-solid fa-angle-down"></i></a></li>
+                    <li><a href="#blog">Blog <i class="fa-solid fa-angle-down"></i></a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+
+                
+                <div class="flex items-center gap-10">
+                    <div class="flex gap-2 items-center font-medium text-gray-900 leading-[150%]">
+                        <img src="./image/PhoneCall 1.png" alt="">
+                        <p >+880 1610839202</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- this is main -->
+    <main>
+
+        <!-- home category start -->
+        <section class="bg-[url(./pro-img/Breadcrumbs.png)] h-[120px] flex items-center ">
+            <div class="flex gap-3 container mx-auto items-center ">
+                <p class="text-base text-gray-400"><i class="fa-solid fa-house"></i> <i
+                        class="fa-solid fa-angle-right"></i></p>
+                <p class="text-base text-green-600">Create Account</p>
+            </div>
+        </section>
+        <!-- home category end-->
+
+
+
+        <!-- singup start  -->
+
+        <section class="container mx-auto py-15 flex flex-col items-center">
+            <div class=" flex flex-col border border-gray-200 rounded-md items-center  p-6 shadow-md ">
+                <form action="" class=" flex flex-col items-center gap-5 ">
+                    <p class="text-gray-900 font-semibold text-[32px] leading-[120%]">Create Account</p>
+                    <div class="flex flex-col gap-2 w-[520px]">
+                        <input class="py-[14px] px-4 border border-gray-200 rounded-md text-gray-400" type="email"
+                            placeholder="Email">
+                        <input class="py-[14px] px-4 border border-gray-200 rounded-md text-gray-400" type="password"
+                            placeholder="Password"><input
+                            class="py-[14px] px-4 border border-gray-200 rounded-md text-gray-400" type="password"
+                            placeholder="Confirm Password">
+                        <div class="flex justify-between items-center gap-5 text-gray-400 py-3">
+                            <label for=""><input type="checkbox"> Accept all terms & Conditions </label>
+                        </div>
+                        <button class="bg-[#00B207] px-6 py-3 rounded-full text-white ">Create Account </button>
+                    </div>
+                    <p class="text-gray-600 leading-[150%]">Already have account <a class="text-gray-900 font-medium "
+                            href="./sing_in.html">Login</a></p>
+                </form>
+            </div>
+        </section>
+        <!-- singup end  -->
+
+
+
+        <!-- subcribe sesction start  -->
+        <section class="bg-[#f7f7f7] py-7">
+            <div class="container mx-auto">
+                <div class="flex justify-between items-center">
+                    <div class="w-[34%]">
+                        <h2 class="text-gray-900 font-semibold leading-[100%] text-2xl">Subcribe our Newsletter</h2>
+                        <p class="text-gray-400">Pellentesque eu nibh eget mauris congue mattis mattis nec tellus.
+                            Phasellus
+                            imperdiet elit eu magna.</p>
+                    </div>
+
+                    <div class="flex gap-7">
+                        <div class="rounded-full border border-gray-300 overflow-hidden ">
+                            <input class="flex-1 px-4 py-2 text-gray-700 placeholder-gray-400 focus:outline-none"
+                                placeholder="Your email address" type="email">
+                            <button
+                                class="bg-[#00B207] text-white rounded-full px-6 py-2 font-medium hover:bg-green-600 transition-colors">Subscribe</button>
+                        </div>
+                        <div>
+                            <div class="flex  justify-start items-center gap-2">
+                                <a target="_blank" target="_blank" href="https://www.facebook.com/asaduzzaman9202"><img
+                                        src="./image/Social Media (3).png" alt=""></a>
+                                <a target="_blank" href="https://www.instagram.com/asaduzzaman.creator/"><img
+                                        src="./image/Social Media.png" alt=""></a>
+                                <a target="_blank" href="https://www.pinterest.com/"><img
+                                        src="./image/Social Media (1).png" alt=""></a>
+                                <a target="_blank" href="https://x.com/Asad_uzzaman2"><img
+                                        src="./image/Social Media (2).png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- subcribe sesction start  -->
+    </main>
+
+
+
+
+
+
+    <footer class="bg-[#1A1A1A] bg-[url(./image/footbg.png)] bg-cover" id="contact">
+        <div class="container mx-auto w-full   py-15">
+            <div class="flex justify-between   ">
+                <div class="w-[20%] flex flex-col gap-2">
+                    <img class="w-[70%]" src="./image/LogoW.png" alt="">
+                    <p class="text-[#999999] leaidng-[150%]">Morbi cursus porttitor enim lobortis molestie. Duis gravida
+                        turpis dui, eget bibendum magn.</p>
+                    <div class="flex  justify-start items-center gap-2">
+                        <a target="_blank" target="_blank" href="https://www.facebook.com/asaduzzaman9202"><img
+                                src="./image/Social Media (3).png" alt=""></a>
+                        <a target="_blank" href="https://www.instagram.com/asaduzzaman.creator/"><img
+                                src="./image/Social Media.png" alt=""></a>
+                        <a target="_blank" href="https://www.pinterest.com/"><img src="./image/Social Media (1).png"
+                                alt=""></a>
+                        <a target="_blank" href="https://x.com/Asad_uzzaman2"><img src="./image/Social Media (2).png"
+                                alt=""></a>
+                    </div>
+                </div>
+
+                <div class="flex flex-col gap-3">
+                    <p class="text-white text-lg leading-[150%] font-medium border-b-2 border-[#00B207]">My Account</p>
+                    <div class="flex flex-col gap-3 pt-4">
+                        <p class="text-[#999999] leading-[150%]">My Account</p>
+                        <p class="text-[#999999] leading-[150%]">Order History</p>
+                        <p class="text-white leading-[150%]">Shoping Cart</p>
+                        <p class="text-[#999999] leading-[150%]">Wishlist</p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col gap-3">
+                    <p class="text-white text-lg leading-[150%] font-medium border-b-2 border-[#00B207]">Helps</p>
+                    <div class="flex flex-col gap-3 pt-4">
+                        <p class="text-[#999999] leading-[150%]">Contact</p>
+                        <p class="text-[#999999] leading-[150%]">Faqs</p>
+                        <p class="text-[#999999] leading-[150%]">Terms & Condition</p>
+                        <p class="text-[#999999] leading-[150%]">privacy Policy</p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col gap-3">
+                    <p class="text-white text-lg leading-[150%] font-medium border-b-2 border-[#00B207]">Proxy</p>
+                    <div class="flex flex-col gap-3 pt-4">
+                        <p class="text-[#999999] leading-[150%]">About</p>
+                        <p class="text-[#999999] leading-[150%]">Shop</p>
+                        <p class="text-[#999999] leading-[150%]">Product</p>
+                        <p class="text-[#999999] leading-[150%]">Track Order</p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col  gap-8">
+                    <p class="text-white text-lg leading-[150%] font-medium  border-b-2 border-[#00B207]">Download
+                        Mobile App</p>
+                    <div class="flex gap-3 ">
+
+                        <a target="_blank" href="https://www.apple.com/app-store/">
+                            <div class="flex items-center gap-3 bg-gray-800 rounded-lg p-[10px]">
+                                <img src="./image/istore.png" alt="">
+                                <div class="">
+                                    <p class="text-gray-300 text-xs leading-[130%]">Download on the</p>
+                                    <h1 class="text-white font-medium text-base leading-[150%]">App Store</h1>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a target="_blank" href="https://play.google.com/store/games?hl=en">
+                            <div class="flex items-center gap-3 bg-gray-800 rounded-lg p-[10px]">
+                                <img src="./image/play.png" alt="">
+                                <div>
+                                    <p class="text-gray-300 text-xs leading-[130%]">Download on the</p>
+                                    <h1 class="text-white font-medium text-base leading-[150%]">App Store</h1>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="  py-6 border-t border-gray-500">
+            <div class="container mx-auto w-full flex justify-between items-center">
+                <div>
+                    <p class="leading-[150%] text-gray-500">Ecobazar eCommerce © 2021. All Rights Reserved </p>
+                </div>
+                <div>
+                    <a target="_blank" href="https://github.com/asaduzzaman8316">
+                        <p class="text-white font-[Segoe] ">$Devlope By Md Asaduzzaman</p>
+                    </a>
+                </div>
+                <div class="flex gap-2">
+                    <img src="./image/Method=ApplePay.png" alt="">
+                    <img src="./image/Method=Visa.png" alt="">
+                    <img src="./image/Method=Discover.png" alt="">
+                    <img src="./image/Method=Mastercard.png" alt="">
+                    <img src="./image/lstpay.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

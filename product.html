@@ -22,21 +22,63 @@
 
     <header>
         <!-- address header -->
-        <div class="bg-[#EDF2EE]">
-            <div class=" flex justify-between container mx-auto items-center py-3 tracking-wide text-[#2B572E]">
+        <div class="bg-[#333333] ">
+            <div class=" flex justify-between container mx-auto items-center py-3 tracking-wide text-gray-300">
                 <div>
                     <p class="text-sm"> <i class="fa-solid fa-location-dot" style="color: #2B572E;"></i> Store Location:
                         Lincoln- 344,
                         Illinois, Chicago, USA
                     </p>
                 </div>
-                <div class="flex gap-5">
-                    <p>Eng <i class="fa-solid fa-angle-down"></i> </p>
-                    <p>USD <i class="fa-solid fa-angle-down"></i> </p>
+                <div class=" flex gap-5 text-sm">
+                    <div class="flex gap-5 border-r pr-4 border-r-gray-500">
+                        <p>Eng <i class="fa-solid fa-angle-down"></i> </p>
+                        <p>USD <i class="fa-solid fa-angle-down"></i> </p>
+                    </div>
+
+                    <div class="flex gap-2">
+                        <a href="./sing_in.html">
+                            <p>Sign in /</p>
+                        </a>
+                        <a href="./sing_up.html">Sing up</a>
+                    </div>
                 </div>
             </div>
         </div>
 
+        <!-- first nav  start-->
+        <nav class="border-b border-gray-200 shadow-md">
+            <div class="container mx-auto py-5 ">
+                <div class="flex justify-between items-center ">
+                    <div>
+                        <img src="./image/Logo.png" alt="">
+                    </div>
+
+                    <div class="rounded-md border border-gray-300 overflow-hidden ">
+                        <input class="flex-1 px-4 py-2 text-gray-700 placeholder-gray-400 focus:outline-none"
+                            placeholder=" Search" type="email">
+                        <button
+                            class="bg-[#00B207] text-white rounded-r-md px-6 py-2 font-medium hover:bg-green-600 transition-colors">Search</button>
+                    </div>
+
+                    <div class="flex items-center gap-3">
+                        <div class="border-r border-r-gray-600 pr-3">
+                            <img src="./image/Heart.png" alt="">
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <img src="./pro-img/Cart.png" alt="">
+                            <div>
+                                <p class="text-gray-700 text-[11px] leading-[120%] pb-1">Shoping Cart</p>
+                                <p class="text-gray-900 font-medium leading-[100%]">$57.00</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+        <!-- first nav end -->
         <!-- nav bar -->
 
         <div class="  h-16 flex items-center bg-white shadow-md  ">
@@ -48,21 +90,14 @@
                     <li><a href="#">Pages <i class="fa-solid fa-angle-down"></i></a></li>
                     <li><a href="#blog">Blog <i class="fa-solid fa-angle-down"></i></a></li>
                     <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
                 </ul>
 
-                <div>
-                    <img src="./image/Logo.png" alt="logo">
-                </div>
+                
                 <div class="flex items-center gap-10">
-                    <div class="flex gap-2 items-center">
+                    <div class="flex gap-2 items-center font-medium text-gray-900 leading-[150%]">
                         <img src="./image/PhoneCall 1.png" alt="">
-                        <p>+880 1610839202</p>
-                    </div>
-                    <div class="flex justify-between items-center gap-5">
-                        <img src="./image/Search.png" alt="">
-                        <img src="./image/Heart.png" alt="">
-                        <img src="./image/Cart.png" alt="">
-                        <img src="./image/user_3 1.png" alt="">
+                        <p >+880 1610839202</p>
                     </div>
                 </div>
             </div>
