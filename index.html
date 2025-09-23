@@ -77,25 +77,31 @@
         </div>
     </header>
 
-    <main class="hidden">
+    <main>
 
         <!-- hero section start  -->
-        <section class="bg-[url(./image/BG.png)] pb-30 bg-no-repeat bg-cover">
+        <section class="bg-[#edf2ee] bg-[url(./image/herobg.png)] pb-30 bg-no-repeat bg-cover">
 
-            <div class="container mx-auto">
-                <div class=" pt-[200px] pl-[820px] ">
+
+            <div class="container mx-auto lg:flex lg:items-center lg:justify-between lg:flex-row flex flex-col gap-7 lg:pt-5">
+                <div>
+                    <img src="./image/heroimg.png" alt="">
+                </div>
+                <div class=" lg:w-[50%] flex flex-col items-center lg:block">
                     <h4 class="text-[#00B207] uppercase leading-[2%] font-medium pb-3">Welcome to shopery</h4>
-                    <h1 class="font-semibold text-7xl leading-[120%] pb-5 text-[#1A1A1A]">Fresh & Healthy Organic Food
+                    <h1 class="font-semibold lg:text-7xl text-4xl leading-[120%] pb-5 text-[#1A1A1A] text-center lg:text-start">Fresh & Healthy Organic
+                        Food
                     </h1>
-                    <p class="text-3xl font-normal leading-[120%] pb-2"> Sale up to <span class="text-[#FF8A00]">30%
+                    <p class="text-3xl font-normal leading-[120%] pb-2 text-center lg:text-start"> Sale up to <span class="text-[#FF8A00]">30%
                             OFF</span></p>
-                    <p class="text-[#808080] leading-[120%] pb-8">Free shipping on all your order, we deliver, you enjy
+                    <p class="text-[#808080] leading-[120%] pb-8">Free shipping on all your order, we deliver
                     </p>
                     <a href="shop1.html"><button
                             class="bg-[#00B207] px-6 py-3 rounded-full text-white cursor-pointer">Shop now <i
                                 class="fa-solid fa-arrow-right"></i></button></a>
                 </div>
             </div>
+
 
         </section>
 
@@ -104,7 +110,8 @@
         <!-- four services start -->
 
         <section class="container mx-auto">
-            <div class="flex justify-between  h-[200px]  mt-23">
+            <div class="grid grid-cols-2 lg:grid-cols-4  lg:h-[200px]  mt-10 gap-2 text-center">
+
                 <div class="flex flex-col items-center gap-4  justify-center ">
                     <img src="./image/Icon.png" alt="">
                     <h3 class="font-semibold text-lg text-[#1A1A1A]">Free Shipping</h3>
@@ -117,7 +124,7 @@
                     <p class="text-[#999999]">Instant access to Contact</p>
                 </div>
 
-                <div class="flex flex-col items-center gap-4  justify-center ">
+                <div class="flex flex-col items-center gap-4  justify-center border-b-3 border-b-[#00b207]">
                     <img src="./image/Icon3.png" alt="">
                     <h3 class="font-semibold text-lg text-[#1A1A1A]">100% Sucure Payment</h3>
                     <p class="text-[#999999]">We ensure your money is save</p>
@@ -130,26 +137,20 @@
                 </div>
             </div>
 
-            <div class="relative">
-                <div class="h-[1px] bg-gray-300">
-                    <div class="h-1 w-2/10 ml-[830px] bg-[#00B207] "></div>
-                </div>
-            </div>
-
         </section>
 
         <!-- four services end -->
 
         <!-- featured peoduct start -->
 
-        <section class="bg-[url(./image/Group6.png)] bg-no-repeat   ">
+        <section class="bg-[url(./image/Group6.png)] bg-no-repeat  ">
             <div class="container mx-auto mt-15">
                 <div class="flex justify-between items-center">
-                    <h1 class="font-semibold text-[40px] text-[#1A1A1A]">Featured Products</h1>
+                    <h1 class="font-semibold text-2xl lg:text-[40px] text-[#1A1A1A]">Featured Products</h1>
                     <p class="text-[#00B207]">View All <i class="fa-solid fa-arrow-right"></i></p>
                 </div>
 
-                <div class=" grid grid-cols-4 gap-3 pt-13">
+                <div class=" grid grid-cols-1 gap-4 pt-13 lg:grid-cols-4">
                     <div class="border flex flex-col items-center border-gray-100 shadow-md rounded-xl">
                         <div class="">
                             <img src="./image/Product Image.png" alt="apple">
@@ -237,52 +238,52 @@
         <section class="bg-[url(./image/shop-bg.png)] bg-no-repeat bg-cover">
             <div class=" mt-15 pt-14">
                 <div class="flex justify-between items-center container mx-auto">
-                    <h1 class="font-semibold text-[40px] text-[#1A1A1A]">Shop by Top Categories</h1>
+                    <h1 class="font-semibold text-2xl lg:text-[40px] text-[#1A1A1A]">Shop by Top Categories</h1>
                     <p class="text-[#00B207]">View All <i class="fa-solid fa-arrow-right"></i></p>
                 </div>
 
-                <div class="grid grid-cols-8 pt-10 pb-17 gap-10 ">
-                    <div class="flex items-center  justify-end">
+                <div class="grid grid-cols-1 pt-10 pb-15 gap-2 lg:grid-cols-8">
+                    <div class="flex items-center  lg:justify-end">
                         <img src="./image/Aoorw.png" alt="">
                     </div>
                     <div
-                        class="flex flex-col items-center gap-5  py-6 justify-center border border-[#2C742F] hover:shadow-md hover:shadow-[#20B52652] rounded-xl">
+                        class="flex flex-col items-center gap-5  py-6 justify-center border border-[#2C742F] hover:shadow-lg hover:shadow-[#20B52652] rounded-xl">
                         <img src="./image/Vegetable.png" alt="">
                         <h3 class="font-semibold text-lg text-[#1A1A1A]">Vegetables</h3>
                         <p class="text-[#999999]">165 Products</p>
                     </div>
 
-                    <div class="flex flex-col items-center gap-5  py-6 justify-center shadow-sm rounded-xl">
+                    <div class="flex flex-col items-center gap-5  py-6 justify-center shadow-lg rounded-xl">
                         <img src="./image/fruits 1.png" alt="">
                         <h3 class="font-semibold text-lg text-[#1A1A1A]">Fresh Fruit</h3>
                         <p class="text-[#999999]">137 Products</p>
                     </div>
 
-                    <div class="flex flex-col items-center gap-5  py-6 justify-center shadow-sm rounded-xl">
+                    <div class="flex flex-col items-center gap-5  py-6 justify-center shadow-lg rounded-xl">
                         <img src="./image/fish 1.png" alt="">
                         <h3 class="font-semibold text-lg text-[#1A1A1A]">Fish</h3>
                         <p class="text-[#999999]">34 Products</p>
                     </div>
 
-                    <div class="flex flex-col items-center gap-5  py-6 justify-center shadow-sm rounded-xl">
+                    <div class="flex flex-col items-center gap-5  py-6 justify-center shadow-lg rounded-xl">
                         <img src="./image/meat 1.png" alt="">
                         <h3 class="font-semibold text-lg text-[#1A1A1A]">Meat</h3>
                         <p class="text-[#999999]">165 Products</p>
                     </div>
 
-                    <div class="flex flex-col items-center gap-5  py-6 justify-center shadow-sm rounded-xl ">
+                    <div class="flex flex-col items-center gap-5  py-6 justify-center shadow-lg rounded-xl ">
                         <img src="./image/soft-drink 1.png" alt="">
-                        <h3 class="font-semibold text-lg text-[#1A1A1A]">Water and Drinks</h3>
+                        <h3 class="font-semibold text-base text-[#1A1A1A]">Water and Drinks</h3>
                         <p class="text-[#999999]">48 Products</p>
                     </div>
 
-                    <div class="flex flex-col items-center gap-5  py-6 justify-center shadow-sm rounded-xl">
+                    <div class="flex flex-col items-center gap-5  py-6 justify-center shadow-lg rounded-xl">
                         <img src="./image/snacks 1.png" alt="">
                         <h3 class="font-semibold text-lg text-[#1A1A1A]">Snacks</h3>
                         <p class="text-[#999999]">165 Products</p>
                     </div>
 
-                    <div class="flex items-center  ">
+                    <div class="flex items-center  justify-end lg:justify-start">
                         <img src="./image/Aoorw.png" alt="">
                     </div>
                 </div>
@@ -294,15 +295,16 @@
 
         <section class="bg-[url(./image/BG1.png)] bg-no-repeat bg-cover">
 
-            <div class="container mx-auto flex justify-center items-center my-15  pb-15">
-                <div class="w-[55%]">
+            <div class="container mx-auto lg:flex justify-center items-center   pb-15 gap-5">
+                <div class="lg:w-[55%]">
                     <img src="./image/trustimg.png" alt="">
                 </div>
-                <div class="w-[43%] flex flex-col gap-7 justify-center  mt-7">
-                    <h1 class="font-semibold text-[40px] text-[#1A1A1A]">100% Trusted <br> Organic Food Store</h1>
+
+                <div class="lg:w-[43%] flex flex-col gap-7 justify-center  mt-7 text-center lg:text-start">
+                    <h1 class="font-semibold text-3xl  lg:text-[40px] text-[#1A1A1A]">100% Trusted <br> Organic Food Store</h1>
 
                     <div class="flex flex-col gap-2">
-                        <h3 class="text-[#1A1A1A] font-medium text-lg leading-[150%]"> <i
+                        <h3 class="text-[#1A1A1A] font-medium text-base lg:text-lg leading-[150%]"> <i
                                 class="fa-solid fa-circle-check fa-fade" style="color: #00B207;"></i> Healthy & natural
                             food
                             for lovers of healthy food.</h3>
@@ -312,7 +314,7 @@
                     </div>
 
                     <div class="flex flex-col gap-2">
-                        <h3 class="text-[#1A1A1A] font-medium leading-[150%]text-lg"> <i
+                        <h3 class="text-[#1A1A1A] font-medium leading-[150%] text-base lg:text-lg"> <i
                                 class="fa-solid fa-circle-check fa-fade" style="color: #00B207;"></i> Every day fresh
                             and
                             quality products for you.</h3>
@@ -334,8 +336,9 @@
 
         <!-- info section start -->
 
-        <section class="bg-[url(./image/reviewbg.png)] h-[331px] flex items-center bg-no-repeat bg-cover">
-            <div class="container mx-auto flex  items-center justify-between ">
+        <section class="bg-[url(./image/reviewbg.png)] lg:h-[331px] flex items-center bg-no-repeat bg-cover">
+            <div class="container mx-auto grid grid-cols-1 lg:grid-cols-4 gap-6  items-center justify-between pb-10 lg:pb-0">
+                
                 <div class="flex flex-col  p-10 items-center bg-[#FFFFFF12] rounded-lg ">
                     <h1 class="text-[#00B207] font-light text-[56px]">37+</h1>
                     <p class="text-white">Years of Hard Work</p>
@@ -358,24 +361,24 @@
 
         <!-- two section baner  star-->
 
-        <section class="bg-[url(./image/2secbg.png)] pt-20 pb-20 bg-no-repeat bg-cover">
+        <section class=" bg-[url(./image/2secbg.png)] pt-15 pb-15 bg-no-repeat bg-cover">
             <div class="container mx-auto ">
-                <div class="flex gap-5">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 ">
                     <div
-                        class="h-[360px] w-full bg-[url(./image/blackf.png)] bg-no-repeat bg-cover bg-center  rounded-xl pl-10 pt-15">
+                        class="lg:h-[360px] w-full bg-[url(./image/blackf.png)] bg-no-repeat bg-cover bg-center  rounded-xl p-6 lg:pl-10 lg:pt-15 ">
 
                         <div class="flex flex-col gap-5 ">
                             <p class="uppercase text-white font-medium leading-[100%] tracking-[10%]">100% organic</p>
-                            <h1 class="font-semibold text-white text-4xl">Fruit & Vegetable</h1>
+                            <h1 class="font-semibold text-white text-2xl lg:text-4xl">Fruit & Vegetable</h1>
                             <div class="flex  items-center gap-2">
                                 <p class="text-gray-400 leading-[150%] ">Starting at:</p>
-                                <p class="py-1 px-2 bg-[#FF8A00] rounded-md text-white">$11.99</p>
+                                <p class="lg:py-1 px-1 lg:px-2 bg-[#FF8A00] rounded-md text-white">$11.99</p>
                             </div>
 
                         </div>
                         <div class="pt-6">
                             <a href="shop1.html">
-                                <button class="bg-[#00B207] px-6 py-3 rounded-full text-white ">Shop now <i
+                                <button class="bg-[#00B207] px-4 py-2 lg:px-6 lg:py-3 rounded-full text-white ">Shop now <i
                                         class="fa-solid fa-arrow-right"></i></button>
                             </a>
                         </div>
@@ -384,12 +387,12 @@
 
 
                     <div
-                        class="h-[360px] w-full bg-[url(./image/bluef.png)] bg-no-repeat bg-cover bg-center m-0 p-0  rounded-xl pl-10 pt-15">
+                        class="lg:h-[360px] w-full bg-[url(./image/bluef.png)] bg-no-repeat bg-cover bg-center m-0 p-0  rounded-xl p-6 lg:pl-10 lg:pt-15">
 
                         <div class="flex flex-col gap-5 ">
                             <p class="uppercase text-white font-medium leading-[100%] tracking-[10%]">sale off the week
                             </p>
-                            <h1 class="font-semibold text-white text-4xl">Sales of the Year</h1>
+                            <h1 class="font-semibold text-white text-2xl  lg:text-4xl">Sales of the Year</h1>
                             <div class="flex  items-center gap-2">
                                 <img src="./image/Timer.png" alt="">
                             </div>
@@ -397,7 +400,7 @@
                         </div>
                         <div class="pt-6">
                             <a href="shop1.html" class="cursor-pointer">
-                                <button class="bg-[#00B207] px-6 py-3 rounded-full text-white ">Shop now <i
+                                <button class="bg-[#00B207] px-4 py-2 lg:px-6 lg:py-3 rounded-full text-white ">Shop now <i
                                         class="fa-solid fa-arrow-right"></i></button>
                             </a>
                         </div>
@@ -411,13 +414,13 @@
 
         <!-- best seller products start-->
         <section class="bg-[url(./image/Group6.png)] bg-no-repeat pb-15 " id="shop">
-            <div class="container mx-auto mt-15">
+            <div class="container mx-auto ">
                 <div class="flex justify-between items-center">
-                    <h1 class="font-semibold text-[40px] text-[#1A1A1A]">Best Seller Products</h1>
+                    <h1 class="font-semibold text-2xl lg:text-[40px] text-[#1A1A1A]">Best Seller Products</h1>
                     <p class="text-[#00B207]">View All <i class="fa-solid fa-arrow-right"></i></p>
                 </div>
 
-                <div class=" grid grid-cols-5 gap-2 pt-13">
+                <div class=" grid grid-cols-1 lg:grid-cols-5 gap-2 pt-13">
 
                     <div
                         class="border border-[#2C742F] hover:shadow-xl/30 hover:shadow-[#20B52652] flex flex-col items-center  shadow-md rounded-xl pb-4">
@@ -516,7 +519,7 @@
 
             <!-- products categories hot best top start-->
 
-            <div class="container mx-auto grid grid-cols-4 gap-4 pt-10">
+            <div class="container mx-auto grid grid-cols-1 lg:grid-cols-4 gap-4 pt-10">
 
                 <!-- this is hot section -->
                 <div class="hot ">
@@ -642,7 +645,7 @@
                 <div
                     class="card bg-[url(./image/Rectangle54.png)] bg-no-repeat bg-cover rounded-xl flex flex-col items-center p-12 text-center gap-5 ">
                     <p class="uppercase font-medium text-xs leading-[100%] tracking-[3%] text-gray-900">hot sale</p>
-                    <h1 class="font-normal text-3xl text-gray-900"><span
+                    <h1 class="font-normal text-3xl text-gray-900 w-[60%] lg:w-full"><span
                             class="text-3xl text-gray-900 font-semibold">Save 37%</span> on Every Order</h1>
 
                     <div>
@@ -669,10 +672,11 @@
                         <h3 class="font-semibold text-gray-900 text-[40px]">Latest News</h3>
                     </div>
 
-                    <div class="maindev flex container mx-auto justify-between py-10 gap-10 pb-15">
+                    <div class="flex flex-col  lg:flex-row container mx-auto justify-center py-10 gap-10 pb-15 items-center border">
+
                         <div class="limon flex flex-col items-start bg-white w-[424px] rounded-lg shadow-xl">
                             <div>
-                                <img src="./image/limon.png" alt="">
+                                <img  src="./image/limon.png" alt="">
                             </div>
 
                             <div class="3option w-[90%] flex flex-col gap-3 p-5">
