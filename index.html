@@ -26,9 +26,9 @@
 </head>
 
 <body class="font-[Poppins] box-border">
-    <header>
+    <header class="">
         <!-- address header -->
-        <div class="bg-[#EDF2EE]">
+        <div class="bg-[#EDF2EE] ">
             <div class=" flex justify-between container mx-auto items-center py-3 tracking-wide text-[#2B572E]">
                 <div>
                     <p class="text-sm"> <i class="fa-solid fa-location-dot" style="color: #2B572E;"></i>
@@ -43,10 +43,12 @@
             </div>
         </div>
 
-        <!-- nav bar -->
-
-        <div class="  h-16 flex items-center bg-white shadow-md  ">
-            <div class="flex justify-between items-center container mx-auto ">
+        
+    </header>
+    <!-- nav bar -->
+    <section class=" sticky top-0">
+        <div class=" h-10 lg:h-12 flex items-center bg-white shadow-md  sticky top-0 z-50">
+            <div class="flex justify-between items-center container mx-auto  relative">
 
                 <ul class="lg:flex hidden gap-2 lg:gap-7  text-gray-600">
                     <li><a class="text-black" href="#">Home <i class="fa-solid fa-angle-down"></i></a></li>
@@ -56,9 +58,10 @@
                     <li><a href="about.html">About Us</a></li>
                 </ul>
 
-                <div class="flex items-center  gap-45">
+                <div class="flex items-center justify-between gap-45 ">
                     <img src="./image/Logo.png" alt="logo">
-                    <div class="lg:hidden"><i class="fa-solid fa-bars " style="color: #00B207;"></i></div>
+                    <div class="lg:hidden absolute right-0"><i class="fa-solid fa-bars " style="color: #00B207;"></i>
+                    </div>
                 </div>
 
                 <div class="lg:flex items-center gap-10 hidden ">
@@ -75,7 +78,7 @@
                 </div>
             </div>
         </div>
-    </header>
+    </section>
 
     <main>
 
@@ -679,7 +682,7 @@
                     </div>
 
                     <div
-                        class="flex flex-col  lg:flex-row container mx-auto justify-center py-10 gap-10 pb-15 items-center border">
+                        class="flex flex-col  lg:flex-row container mx-auto justify-center py-10 gap-10 pb-15 items-center">
 
                         <div class="limon flex flex-col items-start bg-white w-[424px] rounded-lg shadow-xl">
                             <div>
@@ -778,7 +781,8 @@
                             <img src="./image/dot.png" alt="">
                         </div>
                         <div>
-                            <p class="leading-[150%] text-gray-700">Pellentesque eu nibh eget mauris congue mattis
+                            <p class="leading-[150%] text-gray-700 text-start">Pellentesque eu nibh eget mauris congue
+                                mattis
                                 mattis nec tellus. Phasellus imperdiet
                                 elit eu
                                 magna dictum, bibendum cursus velit sodales. Donec sed neque eget</p>
@@ -802,7 +806,8 @@
                             <img src="./image/dot.png" alt="">
                         </div>
                         <div>
-                            <p class="leading-[150%] text-gray-700">Pellentesque eu nibh eget mauris congue mattis
+                            <p class="leading-[150%] text-gray-700 text-start">Pellentesque eu nibh eget mauris congue
+                                mattis
                                 mattis nec tellus. Phasellus imperdiet
                                 elit eu
                                 magna dictum, bibendum cursus velit sodales. Donec sed neque eget</p>
@@ -826,7 +831,8 @@
                             <img src="./image/dot.png" alt="">
                         </div>
                         <div>
-                            <p class="leading-[150%] text-gray-700">Pellentesque eu nibh eget mauris congue mattis
+                            <p class="leading-[150%] text-gray-700 text-start">Pellentesque eu nibh eget mauris congue
+                                mattis
                                 mattis nec tellus. Phasellus imperdiet
                                 elit eu
                                 magna dictum, bibendum cursus velit sodales. Donec sed neque eget</p>
@@ -873,7 +879,7 @@
                         class="w-[48%]  flex flex-col gap-4 justify-center items-start p-5 border border-[#20B52633] rounded-lg shadow-md ">
                         <img src="./image/loca.png" alt="">
                         <p class="uppercase font-medium leading-[100%] tracking-[3%] text-gray-900">our location</p>
-                        <p class="leading-[150%] text-gray-600 font-normal ">1901 Thornridge Cir. Shiloh, Washington DC 
+                        <p class="leading-[150%] text-gray-600 font-normal ">1901 Thornridge Cir. Shiloh, Washington DC
                             20020, United States</p>
                     </div>
 
@@ -903,14 +909,15 @@
         <!-- contact section end -->
     </main>
 
-    <footer class="bg-[#1A1A1A] bg-[url(./image/footbg.png)] bg-cover hidden" id="about">
+    <footer class="bg-[#1A1A1A] bg-[url(./image/footbg.png)] bg-cover " id="about">
         <div class="container mx-auto w-full   py-15">
             <div class="flex justify-between   ">
-                <div class="w-[20%] flex flex-col gap-2">
-                    <img class="w-[70%]" src="./image/LogoW.png" alt="">
-                    <p class="text-[#999999] leaidng-[150%]">Morbi cursus porttitor enim lobortis molestie. Duis gravida
-                        turpis dui, eget bibendum magn.</p>
-                    <div class="flex  justify-start items-center gap-2">
+                <div class="w-[33%] lg:w-[20%] flex flex-col gap-7 lg:gap-2">
+                    <img class="w-[75%]" src="./image/LogoW.png" alt="">
+                    <p class="text-[#999999] leaidng-[150%]">Morbi cursus porttitor enim lobortis molestie. <span
+                            class="hidden lg:inline-block">Duis gravida
+                            turpis dui, eget bibendum magn.</span> </p>
+                    <div class="flex  justify-start items-center gap-1">
                         <a target="_blank" target="_blank" href="https://www.facebook.com/asaduzzaman9202"><img
                                 src="./image/Social Media (3).png" alt=""></a>
                         <a target="_blank" href="https://www.instagram.com/asaduzzaman.creator/"><img
@@ -922,18 +929,22 @@
                     </div>
                 </div>
 
-                <div class="flex flex-col gap-3">
-                    <p class="text-white text-lg leading-[150%] font-medium border-b-2 border-[#00B207]">My Account</p>
-                    <div class="flex flex-col gap-3 pt-4">
-                        <p class="text-[#999999] leading-[150%]">My Account</p>
-                        <p class="text-[#999999] leading-[150%]">Order History</p>
-                        <p class="text-white leading-[150%]">Shoping Cart</p>
-                        <p class="text-[#999999] leading-[150%]">Wishlist</p>
+                <div class="hidden lg:block">
+                    <div class="flex flex-col gap-3">
+                        <p class="text-white text-lg leading-[150%] font-medium border-b-2 border-[#00B207]">My Account
+                        </p>
+                        <div class="flex flex-col gap-3 pt-4">
+                            <p class="text-[#999999] leading-[150%]">My Account</p>
+                            <p class="text-[#999999] leading-[150%]">Order History</p>
+                            <p class="text-white leading-[150%]">Shoping Cart</p>
+                            <p class="text-[#999999] leading-[150%]">Wishlist</p>
+                        </div>
                     </div>
                 </div>
 
                 <div class="flex flex-col gap-3">
-                    <p class="text-white text-lg leading-[150%] font-medium border-b-2 border-[#00B207]">Helps</p>
+                    <p class="text-white text-base lg:text-lg leading-[150%] font-medium border-b-2 border-[#00B207]">
+                        Helps</p>
                     <div class="flex flex-col gap-3 pt-4">
                         <a href="contact.html">
                             <p class="text-[#999999] leading-[150%]">Contact</p>
@@ -944,29 +955,33 @@
                     </div>
                 </div>
 
-                <div class="flex flex-col gap-3">
-                    <p class="text-white text-lg leading-[150%] font-medium border-b-2 border-[#00B207]">Proxy</p>
-                    <div class="flex flex-col gap-3 pt-4">
-                        <a href="about.html">
-                            <p class="text-[#999999] leading-[150%]">About</p>
-                        </a>
-                        <a href="shop1.html">
-                            <p class="text-[#999999] leading-[150%]">Shop</p>
-                        </a>
-                        <a href="product.html">
-                            <p class="text-[#999999] leading-[150%]">Product</p>
-                        </a>
-                        <p class="text-[#999999] leading-[150%]">Track Order</p>
+                <div class="hidden lg:block">
+                    <div class="flex flex-col gap-3">
+                        <p class="text-white text-lg leading-[150%] font-medium border-b-2 border-[#00B207]">Proxy</p>
+                        <div class="flex flex-col gap-3 pt-4">
+                            <a href="about.html">
+                                <p class="text-[#999999] leading-[150%]">About</p>
+                            </a>
+                            <a href="shop1.html">
+                                <p class="text-[#999999] leading-[150%]">Shop</p>
+                            </a>
+                            <a href="product.html">
+                                <p class="text-[#999999] leading-[150%]">Product</p>
+                            </a>
+                            <p class="text-[#999999] leading-[150%]">Track Order</p>
+                        </div>
                     </div>
                 </div>
 
                 <div class="flex flex-col  gap-8">
-                    <p class="text-white text-lg leading-[150%] font-medium  border-b-2 border-[#00B207]">Download
-                        Mobile App</p>
-                    <div class="flex gap-3 ">
+                    <p class="text-white text-sm lg:text-lg leading-[150%] font-medium  border-b-2 border-[#00B207]">
+                        <span class="hidden lg:inline-block">Download</span>
+                        Mobile App
+                    </p>
+                    <div class="flex lg:flex-row flex-col gap-3 ">
 
                         <a target="_blank" href="https://www.apple.com/app-store/">
-                            <div class="flex items-center gap-3 bg-gray-800 rounded-lg p-[10px]">
+                            <div class="flex items-center gap-3 bg-gray-800 rounded-lg p-2 lg:p-[10px]">
                                 <img src="./image/istore.png" alt="">
                                 <div class="">
                                     <p class="text-gray-300 text-xs leading-[130%]">Download on the</p>
@@ -992,20 +1007,22 @@
 
         <div class="  py-6 border-t border-gray-500">
             <div class="container mx-auto w-full flex justify-between items-center">
-                <div>
+                <div class="">
                     <p class="leading-[150%] text-gray-500">Ecobazar eCommerce © 2021. All Rights Reserved </p>
                 </div>
                 <div>
                     <a target="_blank" href="https://github.com/asaduzzaman8316">
-                        <p class="text-white font-[Segoe] ">$Devlope By Md Asaduzzaman</p>
+                        <p class="text-white font-[Segoe] ">Asad</p>
                     </a>
                 </div>
-                <div class="flex gap-2">
-                    <img src="./image/Method=ApplePay.png" alt="">
-                    <img src="./image/Method=Visa.png" alt="">
-                    <img src="./image/Method=Discover.png" alt="">
-                    <img src="./image/Method=Mastercard.png" alt="">
-                    <img src="./image/lstpay.png" alt="">
+                <div class="hidden lg:block">
+                    <div class="flex gap-2">
+                        <img src="./image/Method=ApplePay.png" alt="">
+                        <img src="./image/Method=Visa.png" alt="">
+                        <img src="./image/Method=Discover.png" alt="">
+                        <img src="./image/Method=Mastercard.png" alt="">
+                        <img src="./image/lstpay.png" alt="">
+                    </div>
                 </div>
             </div>
         </div>
