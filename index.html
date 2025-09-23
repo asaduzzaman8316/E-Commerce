@@ -31,12 +31,12 @@
         <div class="bg-[#EDF2EE]">
             <div class=" flex justify-between container mx-auto items-center py-3 tracking-wide text-[#2B572E]">
                 <div>
-                    <p class="text-sm"> <i class="fa-solid fa-location-dot" style="color: #2B572E;"></i> Store Location:
+                    <p class="text-sm"> <i class="fa-solid fa-location-dot" style="color: #2B572E;"></i>
                         Lincoln- 344,
                         Illinois, Chicago, USA
                     </p>
                 </div>
-                <div class="flex gap-5">
+                <div class="flex lg:gap-5 text-sm lg:text-xl">
                     <p>Eng <i class="fa-solid fa-angle-down"></i> </p>
                     <p>USD <i class="fa-solid fa-angle-down"></i> </p>
                 </div>
@@ -46,9 +46,9 @@
         <!-- nav bar -->
 
         <div class="  h-16 flex items-center bg-white shadow-md  ">
-            <div class="flex justify-between items-center container mx-auto">
+            <div class="flex justify-between items-center container mx-auto ">
 
-                <ul class="flex gap-7  text-gray-600">
+                <ul class="lg:flex hidden gap-2 lg:gap-7  text-gray-600">
                     <li><a class="text-black" href="#">Home <i class="fa-solid fa-angle-down"></i></a></li>
                     <li><a href="shop1.html">Shop <i class="fa-solid fa-angle-down"></i> </a></li>
                     <li><a href="404_error.html">Pages <i class="fa-solid fa-angle-down"></i></a></li>
@@ -56,11 +56,13 @@
                     <li><a href="about.html">About Us</a></li>
                 </ul>
 
-                <div>
+                <div class="flex items-center  gap-45">
                     <img src="./image/Logo.png" alt="logo">
+                    <div class="lg:hidden"><i class="fa-solid fa-bars " style="color: #00B207;"></i></div>
                 </div>
-                <div class="flex items-center gap-10">
-                    <div class="flex gap-2 items-center">
+
+                <div class="lg:flex items-center gap-10 hidden ">
+                    <div class=" flex gap-2 items-center ">
                         <img src="./image/PhoneCall 1.png" alt="">
                         <p>+880 1610839202</p>
                     </div>
@@ -75,7 +77,7 @@
         </div>
     </header>
 
-    <main>
+    <main class="hidden">
 
         <!-- hero section start  -->
         <section class="bg-[url(./image/BG.png)] pb-30 bg-no-repeat bg-cover">
@@ -892,7 +894,7 @@
         <!-- contact section end -->
     </main>
 
-    <footer class="bg-[#1A1A1A] bg-[url(./image/footbg.png)] bg-cover" id="about">
+    <footer class="bg-[#1A1A1A] bg-[url(./image/footbg.png)] bg-cover hidden" id="about">
         <div class="container mx-auto w-full   py-15">
             <div class="flex justify-between   ">
                 <div class="w-[20%] flex flex-col gap-2">
@@ -924,7 +926,9 @@
                 <div class="flex flex-col gap-3">
                     <p class="text-white text-lg leading-[150%] font-medium border-b-2 border-[#00B207]">Helps</p>
                     <div class="flex flex-col gap-3 pt-4">
-                        <a href="contact.html"><p class="text-[#999999] leading-[150%]">Contact</p></a>
+                        <a href="contact.html">
+                            <p class="text-[#999999] leading-[150%]">Contact</p>
+                        </a>
                         <p class="text-[#999999] leading-[150%]">Faqs</p>
                         <p class="text-[#999999] leading-[150%]">Terms & Condition</p>
                         <p class="text-[#999999] leading-[150%]">privacy Policy</p>
@@ -934,9 +938,15 @@
                 <div class="flex flex-col gap-3">
                     <p class="text-white text-lg leading-[150%] font-medium border-b-2 border-[#00B207]">Proxy</p>
                     <div class="flex flex-col gap-3 pt-4">
-                        <a href="about.html"><p class="text-[#999999] leading-[150%]">About</p></a>
-                        <a href="shop1.html"><p class="text-[#999999] leading-[150%]">Shop</p></a>
-                        <a href="product.html"><p class="text-[#999999] leading-[150%]">Product</p></a>
+                        <a href="about.html">
+                            <p class="text-[#999999] leading-[150%]">About</p>
+                        </a>
+                        <a href="shop1.html">
+                            <p class="text-[#999999] leading-[150%]">Shop</p>
+                        </a>
+                        <a href="product.html">
+                            <p class="text-[#999999] leading-[150%]">Product</p>
+                        </a>
                         <p class="text-[#999999] leading-[150%]">Track Order</p>
                     </div>
                 </div>
@@ -991,6 +1001,8 @@
             </div>
         </div>
     </footer>
+
+
 </body>
 
 </html>
